@@ -21,7 +21,7 @@ a {
   display: inline-block;
   background-color: #ff69b4;
   color: white;
-  padding: 8px 15px;
+  padding: 15px;
   text-decoration: none;
   font-weight: bold;
   border-radius: 5px;
@@ -30,27 +30,33 @@ a {
 
 main {
   padding: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 15px;
 }
 
-img {
-  max-width: 150px;
+#caixa-texto {
+  width: 100%;
 }
 
-.destaque {
+.bolo-card {
   background-color: #ffffff;
   border: 1px solid #ffd1dc;
-  padding: 20px;
-  max-width: 400px;
-  margin: 20px auto;
+  padding: 15px;
+  max-width: 200px;
+  box-sizing: border-box;
   border-radius: 8px;
 }
 
-.destaque div {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 15px;
-  margin-top: 15px;
+.bolo-card img {
+  max-width: 70px;
+  border-radius: 5px;
+}
+
+.preco {
+  color: #e91e63;
+  font-weight: bold;
 }
 
 #menu-final a {
